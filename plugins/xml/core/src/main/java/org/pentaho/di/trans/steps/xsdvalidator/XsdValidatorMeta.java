@@ -61,7 +61,7 @@ import org.w3c.dom.Node;
  */
 @Step( id = "XSDValidator", image = "XOU.svg", i18nPackageName = "org.pentaho.di.trans.steps.xsdvalidator",
     name = "XSDValidator.name", description = "XSDValidator.description",
-    categoryDescription = "XSDValidator.category",
+    categoryDescription = "i18n:org.pentaho.di.trans.step:BaseStep.Category.Validation",
     documentationUrl = "http://wiki.pentaho.com/display/EAI/XSD+Validator" )
 public class XsdValidatorMeta extends BaseStepMeta implements StepMetaInterface {
   private static Class<?> PKG = XsdValidatorMeta.class; // for i18n purposes, needed by Translator2!!

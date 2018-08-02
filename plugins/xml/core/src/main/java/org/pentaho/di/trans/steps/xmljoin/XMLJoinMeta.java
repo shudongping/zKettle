@@ -60,7 +60,7 @@ import org.w3c.dom.Node;
  * 
  */
 @Step( id = "XMLJoin", image = "XJN.svg", i18nPackageName = "org.pentaho.di.trans.steps.xmljoin",
-    name = "XMLJoin.name", description = "XMLJoin.description", categoryDescription = "XMLJoin.category",
+    name = "XMLJoin.name", description = "XMLJoin.description", categoryDescription = "i18n:org.pentaho.di.trans.step:BaseStep.Category.Joins",
     documentationUrl = "http://wiki.pentaho.com/display/EAI/XML+Join" )
 @InjectionSupported( localizationPrefix = "XMLJoin.Injection." )
 public class XMLJoinMeta extends BaseStepMeta implements StepMetaInterface {

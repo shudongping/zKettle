@@ -57,7 +57,7 @@ import org.w3c.dom.Node;
  *
  */
 @Step( id = "XSLT", image = "XSLT.svg", i18nPackageName = "org.pentaho.di.trans.steps.xslt", name = "XSLT.name",
-    description = "XSLT.description", categoryDescription = "XSLT.category",
+    description = "XSLT.description", categoryDescription = "i18n:org.pentaho.di.trans.step:BaseStep.Category.Transform",
     documentationUrl = "http://wiki.pentaho.com/display/EAI/XSL+Transformation" )
 public class XsltMeta extends BaseStepMeta implements StepMetaInterface {
   private static Class<?> PKG = XsltMeta.class; // for i18n purposes, needed by Translator2!!

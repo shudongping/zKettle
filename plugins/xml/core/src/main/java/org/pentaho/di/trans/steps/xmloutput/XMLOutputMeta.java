@@ -70,7 +70,7 @@ import org.w3c.dom.Node;
  * 
  */
 @Step( id = "XMLOutput", image = "XOU.svg", i18nPackageName = "org.pentaho.di.trans.steps.xmloutput",
-    name = "XMLOutput.name", description = "XMLOutput.description", categoryDescription = "XMLOutput.category",
+    name = "XMLOutput.name", description = "XMLOutput.description", categoryDescription = "i18n:org.pentaho.di.trans.step:BaseStep.Category.Output",
     documentationUrl = "http://wiki.pentaho.com/display/EAI/XML+Output" )
 @InjectionSupported( localizationPrefix = "XMLOutput.Injection.", groups = "OUTPUT_FIELDS" )
 public class XMLOutputMeta extends BaseStepMeta implements StepMetaInterface {

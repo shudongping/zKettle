@@ -63,7 +63,7 @@ import org.w3c.dom.Node;
  * Store run-time data on the getXMLData step.
  */
 @Step( id = "getXMLData", image = "GXD.svg", i18nPackageName = "org.pentaho.di.trans.steps.getxmldata",
-    name = "GetXMLData.name", description = "GetXMLData.description", categoryDescription = "GetXMLData.category",
+    name = "GetXMLData.name", description = "GetXMLData.description", categoryDescription = "i18n:org.pentaho.di.trans.step:BaseStep.Category.Input",
     documentationUrl = "http://wiki.pentaho.com/display/EAI/Get+Data+From+XML" )
 public class GetXMLDataMeta extends BaseStepMeta implements StepMetaInterface {
   private static Class<?> PKG = GetXMLDataMeta.class; // for i18n purposes, needed by Translator2!!

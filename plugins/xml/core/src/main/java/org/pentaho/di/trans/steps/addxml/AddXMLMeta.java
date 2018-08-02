@@ -61,7 +61,7 @@ import org.w3c.dom.Node;
  */
 
 @Step( id = "AddXML", image = "add_xml.svg", i18nPackageName = "org.pentaho.di.trans.steps.addxml",
-    name = "AddXML.name", description = "AddXML.description", categoryDescription = "AddXML.category",
+    name = "AddXML.name", description = "AddXML.description", categoryDescription = "i18n:org.pentaho.di.trans.step:BaseStep.Category.Transform",
     documentationUrl = "http://wiki.pentaho.com/display/EAI/Add+XML" )
 @InjectionSupported( localizationPrefix = "AddXMLMeta.Injection.", groups = { "OUTPUT_FIELDS" } )
 public class AddXMLMeta extends BaseStepMeta implements StepMetaInterface {
