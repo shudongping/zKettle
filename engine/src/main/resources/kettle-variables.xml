@@ -335,7 +335,7 @@
   <kettle-variable>
     <description>Defines the default encoding for servlets, leave it empty to use Java default encoding</description>
     <variable>KETTLE_DEFAULT_SERVLET_ENCODING</variable>
-    <default-value></default-value>
+    <default-value>UTF-8</default-value>
   </kettle-variable>
 
   <kettle-variable>

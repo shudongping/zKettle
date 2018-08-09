@@ -478,4 +478,9 @@ public class JsonInput extends BaseFileInputStep<JsonInputMeta, JsonInputData> i
     throw new NotImplementedException();
   }
 
+  public static  void main(String[] args){
+    System.out.println(BaseMessages.getString(PKG,"JsonInputDialog.AdditionalFieldsTab.TabTitle"));
+  }
+
+
 }

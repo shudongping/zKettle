@@ -328,7 +328,7 @@
       </releases>
       <snapshots>
         <enabled>true</enabled>
-        <updatePolicy>interval:15</updatePolicy>
+        <updatePolicy>never</updatePolicy>
       </snapshots>
     </repository>
     <repository>
@@ -340,6 +340,16 @@
       <id>Ztemap_Repository</id>
       <name>Nexus_repos</name>
       <url>http://192.168.1.210:8081/nexus/content/repositories/thirdparty/</url>
+    </repository>
+    <repository>
+      <id>aliyunrep</id>
+      <name>aliyunrep</name>
+      <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+    </repository>
+    <repository>
+      <id>center</id>
+      <name>center</name>
+      <url>http://central.maven.org/maven2/</url>
     </repository>
   </repositories>
 

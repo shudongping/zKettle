@@ -50,6 +50,7 @@
         <module>file-open-save</module>
         <module>repositories</module>
         <module>meta-inject</module>
+        <module>coordinate-to-point</module>
         <module>engine-configuration</module>
         <module>get-previous-row-field</module>
         <module>aggregate-rows</module>
