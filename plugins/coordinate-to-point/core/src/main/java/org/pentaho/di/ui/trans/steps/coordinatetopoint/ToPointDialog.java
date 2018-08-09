@@ -136,7 +136,7 @@ public class ToPointDialog extends BaseStepDialog implements StepDialogInterface
         wyField.addModifyListener(lsMod);
         fdyField = new FormData();
         fdyField.left = new FormAttachment(middle, 0);
-        fdyField.top = new FormAttachment(wxField, margin);
+        fdyField.top = new FormAttachment(wxField, 2 * margin);
         fdyField.right = new FormAttachment(100, 0);
         wyField.setLayoutData(fdyField);
 
@@ -256,8 +256,8 @@ public class ToPointDialog extends BaseStepDialog implements StepDialogInterface
         wStepname.selectAll();
 
         geomField.setText(Const.NVL(input.getGeomField(), ""));
-        wxField.setText(input.getxField());
-        wyField.setText(input.getyField());
+        wxField.setText(Const.NVL(input.getxField(), ""));
+        wyField.setText(Const.NVL(input.getyField(), ""));
     }
 
 

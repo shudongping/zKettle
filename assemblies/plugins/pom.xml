@@ -44,6 +44,7 @@
     <pdi-platform-utils-plugin.version>${project.version}</pdi-platform-utils-plugin.version>
     <vertica-bulkloader-plugin.version>${project.version}</vertica-bulkloader-plugin.version>
     <pdi-pur-plugin.version>${project.version}</pdi-pur-plugin.version>
+    <coordinate-to-point-plugin.version>${project.version}</coordinate-to-point-plugin.version>
   </properties>
 
   <dependencies>
@@ -299,6 +300,19 @@
         </exclusion>
       </exclusions>
     </dependency>
+    <dependency>
+      <groupId>org.pentaho.di.plugins</groupId>
+      <artifactId>coordinate-to-point-plugin</artifactId>
+      <version>${coordinate-to-point-plugin.version}</version>
+      <type>zip</type>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
     <dependency>
       <groupId>org.pentaho.di.plugins</groupId>
       <artifactId>kettle-sap-plugin</artifactId>
